@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Necesario para consultar la API pública de contenido (Wikipedia en español). -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Solo para saber si hay red y usar el contenido local sin esperar timeouts. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".GodziMindApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/godzi_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/godzi_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GodziMind">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GodziMind"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
