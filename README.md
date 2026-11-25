@@ -181,3 +181,8 @@ app/src/main/java/com/godzistudio/godzimind/
 
 > El logo de GodziMind está en `app/src/main/res/drawable/godzi_logo.png` y se usa
 > tanto en la cabecera de Inicio como en el icono de la app.
+
+## Documentacion Unidad 3
+
+- [Criterio 1 - Lista de verificacion](docs/GodziMind_Unidad3_Criterio1.pdf)
+
